@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 /**
- * @a: array of int to sort
- * @s: size of the array
+ * bubble_sort - sorts an array in ascending order
+ * @array: array of ints to sort
+ * @size: size of the array
  */
 void bubble_sort(int *array, size_t size)
 {
-	int i, j;
+	unsigned int i, j;
 	int tmp;
 
 	if (size < 2)
